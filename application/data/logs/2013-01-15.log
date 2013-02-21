@@ -1,0 +1,796 @@
+2013-01-15T10:00:58+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42000] [1049] Unknown database 'aitsu_fork'
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(109): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(459): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('create table if...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Pdo_Abstract->query('create table if...')
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'create table if...', NULL, false, false)
+#5 /home/christian/www/moraso/application/Bootstrap.php(93): Aitsu_Db::query('create table if...')
+#6 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initSession()
+#7 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('session')
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#9 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#10 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#11 {main}
+ Query: create table if not exists ait_aitsu_session (	id char(32), 	modified int, 	lifetime int, 	data longtext, 	primary key (id))
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:01:18+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42000] [1049] Unknown database 'aitsu_fork'
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(109): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(459): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('create table if...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Pdo_Abstract->query('create table if...')
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'create table if...', NULL, false, false)
+#5 /home/christian/www/moraso/application/Bootstrap.php(93): Aitsu_Db::query('create table if...')
+#6 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initSession()
+#7 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('session')
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#9 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#10 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#11 {main}
+ Query: create table if not exists ait_aitsu_session (	id char(32), 	modified int, 	lifetime int, 	data longtext, 	primary key (id))
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:01:18+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42000] [1049] Unknown database 'aitsu_fork'
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(109): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(459): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('create table if...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Pdo_Abstract->query('create table if...')
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'create table if...', NULL, false, false)
+#5 /home/christian/www/moraso/application/Bootstrap.php(93): Aitsu_Db::query('create table if...')
+#6 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initSession()
+#7 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('session')
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#9 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#10 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#11 {main}
+ Query: create table if not exists ait_aitsu_session (	id char(32), 	modified int, 	lifetime int, 	data longtext, 	primary key (id))
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:01:19+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42000] [1049] Unknown database 'aitsu_fork'
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(109): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(459): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('create table if...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Pdo_Abstract->query('create table if...')
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'create table if...', NULL, false, false)
+#5 /home/christian/www/moraso/application/Bootstrap.php(93): Aitsu_Db::query('create table if...')
+#6 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initSession()
+#7 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('session')
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#9 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#10 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#11 {main}
+ Query: create table if not exists ait_aitsu_session (	id char(32), 	modified int, 	lifetime int, 	data longtext, 	primary key (id))
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:03:56+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_art' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select count(*)...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(827): Zend_Db_Adapter_Pdo_Abstract->query('select count(*)...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Abstract->fetchOne('select count(*)...')
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(203): Aitsu_Db->_query('fetchOne', 'select count(*)...', NULL, false, false, NULL)
+#6 /home/christian/www/moraso/library/Aitsu/Adm/Controller/Plugin/Accesscontrol.php(17): Aitsu_Db::fetchOne('select count(*)...')
+#7 /home/christian/www/moraso/library/Zend/Controller/Plugin/Broker.php(309): Aitsu_Adm_Controller_Plugin_Accesscontrol->preDispatch(Object(Zend_Controller_Request_Http))
+#8 /home/christian/www/moraso/library/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#9 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#12 {main}
+ Query: select count(*) from ait_art
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:03:56+01:00 NOTICE (5): Indirect modification of overloaded property Aitsu_Adm_User::$_privs has no effect[Thrown @:/library/Aitsu/Adm/User.php:21]
+2013-01-15T10:03:59+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_acl_user' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select * from a...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select * from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select * from a...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(221): Aitsu_Db->_query('fetchRow', 'select * from _...', Array, false, false, NULL)
+#6 /home/christian/www/moraso/library/Aitsu/Persistence/User.php(40): Aitsu_Db::fetchRow('select * from _...', Array)
+#7 /home/christian/www/moraso/application/Bootstrap.php(148): Aitsu_Persistence_User->load()
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initBackendUserConfig()
+#9 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('backenduserconf...')
+#10 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#11 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#12 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#13 {main}
+ Query: select * from ait_acl_user where userid = :id
+ Params: Array
+(
+    [:id] => setup
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:04:00+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_acl_user' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select * from a...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select * from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select * from a...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(221): Aitsu_Db->_query('fetchRow', 'select * from _...', Array, false, false, NULL)
+#6 /home/christian/www/moraso/library/Aitsu/Persistence/User.php(40): Aitsu_Db::fetchRow('select * from _...', Array)
+#7 /home/christian/www/moraso/application/Bootstrap.php(148): Aitsu_Persistence_User->load()
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initBackendUserConfig()
+#9 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('backenduserconf...')
+#10 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#11 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#12 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#13 {main}
+ Query: select * from ait_acl_user where userid = :id
+ Params: Array
+(
+    [:id] => setup
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:07:15+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_art' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select count(*)...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(827): Zend_Db_Adapter_Pdo_Abstract->query('select count(*)...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Abstract->fetchOne('select count(*)...')
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(203): Aitsu_Db->_query('fetchOne', 'select count(*)...', NULL, false, false, NULL)
+#6 /home/christian/www/moraso/library/Aitsu/Adm/Controller/Plugin/Accesscontrol.php(17): Aitsu_Db::fetchOne('select count(*)...')
+#7 /home/christian/www/moraso/library/Zend/Controller/Plugin/Broker.php(309): Aitsu_Adm_Controller_Plugin_Accesscontrol->preDispatch(Object(Zend_Controller_Request_Http))
+#8 /home/christian/www/moraso/library/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#9 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#12 {main}
+ Query: select count(*) from mor_art
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:07:15+01:00 NOTICE (5): Indirect modification of overloaded property Aitsu_Adm_User::$_privs has no effect[Thrown @:/library/Aitsu/Adm/User.php:21]
+2013-01-15T10:07:18+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_acl_user' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select * from m...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select * from m...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select * from m...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(221): Aitsu_Db->_query('fetchRow', 'select * from _...', Array, false, false, NULL)
+#6 /home/christian/www/moraso/library/Aitsu/Persistence/User.php(40): Aitsu_Db::fetchRow('select * from _...', Array)
+#7 /home/christian/www/moraso/application/Bootstrap.php(148): Aitsu_Persistence_User->load()
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initBackendUserConfig()
+#9 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('backenduserconf...')
+#10 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#11 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#12 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#13 {main}
+ Query: select * from mor_acl_user where userid = :id
+ Params: Array
+(
+    [:id] => setup
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:07:19+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_acl_user' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select * from m...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select * from m...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select * from m...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(221): Aitsu_Db->_query('fetchRow', 'select * from _...', Array, false, false, NULL)
+#6 /home/christian/www/moraso/library/Aitsu/Persistence/User.php(40): Aitsu_Db::fetchRow('select * from _...', Array)
+#7 /home/christian/www/moraso/application/Bootstrap.php(148): Aitsu_Persistence_User->load()
+#8 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initBackendUserConfig()
+#9 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('backenduserconf...')
+#10 /home/christian/www/moraso/library/Zend/Application/Bootstrap/BootstrapAbstract.php(586): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#11 /home/christian/www/moraso/library/Zend/Application.php(355): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#12 /home/christian/www/moraso/adm/index.php(26): Zend_Application->bootstrap()
+#13 {main}
+ Query: select * from mor_acl_user where userid = :id
+ Params: Array
+(
+    [:id] => setup
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:12:15+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-01-15T10:12:15+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 50.198793411255
+    [:ssum] => 2519.9188599458
+    [:idartlang] => 
+    [:date] => 2013-01-15
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:12:15+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-01-15T10:12:15+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-01-15T10:12:15+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-01-15T10:12:15+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-01-15T10:15:02+01:00 NOTICE (5): John Doe has saved article "" (idart 314).[Thrown @:/library/Moraso/Log/Article.php:26]
+2013-01-15T10:15:02+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_schemaorgtype' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select distinct...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(736): Zend_Db_Adapter_Pdo_Abstract->query('select distinct...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(115): Zend_Db_Adapter_Abstract->fetchAll('select distinct...')
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(151): Aitsu_Db->_query('fetchAll', 'select distinct...', NULL, false, false, NULL)
+#6 /home/christian/www/moraso/application/plugins/article/meta/Class.php(54): Aitsu_Db::fetchAll('select distinct...')
+#7 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): MetaArticleController->indexAction()
+#8 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#9 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#11 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#12 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#13 {main}
+ Query: select distinct 	schemaorg.schemaorgtypeid, 	schemaorg.type from mor_schemaorgtype schemaorg left join mor_schemaorghiearchy child 	on schemaorg.schemaorgtypeid = child.child 	or schemaorg.schemaorgtypeid = child.parent left join mor_schemaorgtype parent on child.parent = parent.schemaorgtypeid where 	parent.type = 'WebPage' order by 	schemaorg.type asc
+ Params: [Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:15:40+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:16:54+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:16:56+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:08+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:09+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:10+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:11+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:12+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:13+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.mor_pubv_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('select ?artlang...', Array)
+#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(755): Zend_Db_Adapter_Pdo_Abstract->query('select ?artlang...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Abstract->fetchRow('select ?artlang...', Array)
+#5 /home/christian/www/moraso/library/Aitsu/Db.php(226): Aitsu_Db->_query('fetchRow', 'select ?artlang...', Array, false, false, 3600, false)
+#6 /home/christian/www/moraso/library/Aitsu/Rewrite/Standard.php(91): Aitsu_Db::fetchRowC(3600, 'select ?artlang...', Array)
+#7 /home/christian/www/moraso/library/Aitsu/Rewrite.php(47): Aitsu_Rewrite_Standard->registerParams()
+#8 /home/christian/www/moraso/library/Aitsu/Bootstrap/EvalRequest.php(54): Aitsu_Rewrite->registerParams()
+#9 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(340): Aitsu_Bootstrap_EvalRequest::run()
+#10 [internal function]: Aitsu_Bootstrap->_EvaluateRequest()
+#11 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#12 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#13 {main}
+ Query: select 	artlang.*, 	catlang.idcat, 	cat.idclient from mor_pubv_art_lang as artlang left join mor_cat_lang as catlang on artlang.idartlang = catlang.startidartlang left join mor_cat as cat on catlang.idcat = cat.idcat where 	catlang.idcat = :idcat 	and artlang.idlang = :idlang
+ Params: Array
+(
+    [:idcat] => 1
+    [:idlang] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:44+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-01-15T10:17:44+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 53.020000457764
+    [:ssum] => 2811.1204485413
+    [:idartlang] => 
+    [:date] => 2013-01-15
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:17:44+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-01-15T10:17:44+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-01-15T10:17:44+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-01-15T10:17:44+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-01-15T10:17:53+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-01-15T10:18:03+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/properties/Class.php(54): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): PropertiesArticleController->indexAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}
+ Query: delete a from ait_revision_art_lang as a left join ( 	select idartlang, max(revisionid) as revisionid 	from ait_revision_art_lang 	where revisionid != :revisionid 	group by idartlang 	) as b on a.idartlang = b.idartlang left join ait_revision_art_lang as c on b.idartlang = c.idartlang and b.revisionid = c.revisionid where 	a.revisionid = :revisionid 	and c.revisionhash = a.revisionhash
+ Params: Array
+(
+    [:revisionid] => 1
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:18:03+01:00 NOTICE (5): Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-01-15T10:18:03+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/properties/Class.php(54): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): PropertiesArticleController->indexAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-01-15T10:18:03+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-01-15T10:18:03+01:00 NOTICE (5): Affected event: backend.article.edit.save.start[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-01-15T10:18:03+01:00 NOTICE (5): John Doe has saved article "Wurst" (idart 314).[Thrown @:/library/Moraso/Log/Article.php:26]
+2013-01-15T10:18:04+01:00 NOTICE (5): John Doe has saved article "Wurst" (idart 314).[Thrown @:/library/Moraso/Log/Article.php:26]
+2013-01-15T10:19:09+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-01-15T10:19:12+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-01-15T10:19:12+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 62.870025634766
+    [:ssum] => 3952.6401233161
+    [:idartlang] => 
+    [:date] => 2013-01-15
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T10:19:12+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-01-15T10:19:12+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-01-15T10:19:12+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-01-15T10:19:12+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-01-15T10:22:33+01:00 WARN (4): DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 7[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T10:22:37+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-01-15T13:01:45+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-01-15T13:03:47+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-01-15T13:03:51+01:00 WARN (4): Creating default object from empty value[Thrown @:/library/Aitsu/Core/Module.php:115]
+2013-01-15T13:21:01+01:00 WARN (4): Creating default object from empty value[Thrown @:/library/Aitsu/Core/Module.php:115]
+2013-01-15T13:21:08+01:00 WARN (4): Creating default object from empty value[Thrown @:/library/Aitsu/Core/Module.php:115]
+2013-01-15T13:27:11+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/skins/demo/module/Template/Class.php:59]
+2013-01-15T13:27:25+01:00 WARN (4): Creating default object from empty value[Thrown @:/library/Aitsu/Core/Module.php:115]
+2013-01-15T13:28:33+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/skins/demo/module/Template/Class.php:59]
+2013-01-15T13:28:59+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/skins/demo/module/Template/Class.php:59]
+2013-01-15T13:31:50+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/skins/demo/module/Template/Class.php:59]
+2013-01-15T13:37:33+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]
+2013-01-15T13:40:45+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]
+2013-01-15T13:54:45+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-01-15T13:54:46+01:00 NOTICE (5): Exception in /home/christian/www/moraso/library/Aitsu/Bootstrap.php on line 532: parse_ini_file(application/configs/clients/foundation.ini): failed to open stream: No such file or directory[Thrown @:/library/Aitsu/Bootstrap.php:532]
+2013-01-15T13:54:46+01:00 NOTICE (5): Stack trace: 
+#0 /home/christian/www/moraso/library/Zend/Config/Ini.php(202): Zend_Config_Ini->_parseIniFile('application/con...')
+#1 /home/christian/www/moraso/library/Zend/Config/Ini.php(126): Zend_Config_Ini->_loadIniFile('application/con...')
+#2 /home/christian/www/moraso/library/Aitsu/Config/Ini.php(36): Zend_Config_Ini->__construct('application/con...', 'dev', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(131): Aitsu_Config_Ini::getInstance('clients/foundat...')
+#4 [internal function]: Aitsu_Bootstrap->_ReadConfiguration()
+#5 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(513): call_user_func(Array)
+#6 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#7 {main}[Thrown @:/library/Aitsu/Bootstrap.php:533]
+2013-01-15T13:54:48+01:00 NOTICE (5): Exception in /home/christian/www/moraso/library/Aitsu/Bootstrap.php on line 532: parse_ini_file(application/configs/clients/foundation.ini): failed to open stream: No such file or directory[Thrown @:/library/Aitsu/Bootstrap.php:532]
+2013-01-15T13:54:48+01:00 NOTICE (5): Stack trace: 
+#0 /home/christian/www/moraso/library/Zend/Config/Ini.php(202): Zend_Config_Ini->_parseIniFile('application/con...')
+#1 /home/christian/www/moraso/library/Zend/Config/Ini.php(126): Zend_Config_Ini->_loadIniFile('application/con...')
+#2 /home/christian/www/moraso/library/Aitsu/Config/Ini.php(36): Zend_Config_Ini->__construct('application/con...', 'dev', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(131): Aitsu_Config_Ini::getInstance('clients/foundat...')
+#4 [internal function]: Aitsu_Bootstrap->_ReadConfiguration()
+#5 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(513): call_user_func(Array)
+#6 /home/christian/www/moraso/index.php(29): Aitsu_Bootstrap::run()
+#7 {main}[Thrown @:/library/Aitsu/Bootstrap.php:533]
+2013-01-15T13:57:50+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]
+2013-01-15T13:57:52+01:00 WARN (4): Creating default object from empty value[Thrown @:/library/Aitsu/Core/Module.php:115]
+2013-01-15T13:57:54+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/edit/Class.php(124): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): EditArticleController->saveAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('saveAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}
+ Query: delete a from ait_revision_art_lang as a left join ( 	select idartlang, max(revisionid) as revisionid 	from ait_revision_art_lang 	where revisionid != :revisionid 	group by idartlang 	) as b on a.idartlang = b.idartlang left join ait_revision_art_lang as c on b.idartlang = c.idartlang and b.revisionid = c.revisionid where 	a.revisionid = :revisionid 	and c.revisionhash = a.revisionhash
+ Params: Array
+(
+    [:revisionid] => 2
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T13:57:54+01:00 NOTICE (5): Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-01-15T13:57:54+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/edit/Class.php(124): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): EditArticleController->saveAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('saveAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-01-15T13:57:54+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-01-15T13:57:54+01:00 NOTICE (5): Affected event: backend.article.edit.save.start[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-01-15T13:57:54+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 29[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): Tag section invalid in Entity, line: 55[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): Opening and ending tag mismatch: li and div in Entity, line: 215[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 223[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 225[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 227[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 229[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 231[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 235[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 237[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 239[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): Opening and ending tag mismatch: ul and div in Entity, line: 245[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T13:57:57+01:00 WARN (4): DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 313[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T14:00:10+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]
+2013-01-15T14:00:12+01:00 WARN (4): Creating default object from empty value[Thrown @:/library/Aitsu/Core/Module.php:115]
+2013-01-15T14:00:14+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/edit/Class.php(124): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): EditArticleController->saveAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('saveAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}
+ Query: delete a from ait_revision_art_lang as a left join ( 	select idartlang, max(revisionid) as revisionid 	from ait_revision_art_lang 	where revisionid != :revisionid 	group by idartlang 	) as b on a.idartlang = b.idartlang left join ait_revision_art_lang as c on b.idartlang = c.idartlang and b.revisionid = c.revisionid where 	a.revisionid = :revisionid 	and c.revisionhash = a.revisionhash
+ Params: Array
+(
+    [:revisionid] => 3
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-01-15T14:00:14+01:00 NOTICE (5): Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-01-15T14:00:14+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/edit/Class.php(124): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): EditArticleController->saveAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('saveAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-01-15T14:00:14+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-01-15T14:00:14+01:00 NOTICE (5): Affected event: backend.article.edit.save.start[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-01-15T14:00:14+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]
+2013-01-15T14:00:15+01:00 WARN (4): DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14[Thrown @:/library/Zend/Search/Lucene/Document/Html.php:99]
+2013-01-15T14:10:50+01:00 NOTICE (5): Undefined property: stdClass::$hoverEdit[Thrown @:/application/modules/Template/Class.php:60]

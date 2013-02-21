@@ -1,0 +1,549 @@
+2013-02-04T15:01:18+01:00 NOTICE (5): John Doe has saved article "" (idart 316).[Thrown @:/library/Moraso/Log/Article.php:26]
+2013-02-04T15:01:19+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-02-04T15:01:25+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/properties/Class.php(54): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): PropertiesArticleController->indexAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}
+ Query: delete a from ait_revision_art_lang as a left join ( 	select idartlang, max(revisionid) as revisionid 	from ait_revision_art_lang 	where revisionid != :revisionid 	group by idartlang 	) as b on a.idartlang = b.idartlang left join ait_revision_art_lang as c on b.idartlang = c.idartlang and b.revisionid = c.revisionid where 	a.revisionid = :revisionid 	and c.revisionhash = a.revisionhash
+ Params: Array
+(
+    [:revisionid] => 7
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:01:25+01:00 NOTICE (5): Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moraso_master.ait_revision_art_lang' doesn't exist[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:01:25+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('delete a from a...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('delete a from a...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'delete a from a...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Revision/Article.php(80): Aitsu_Db::query('delete a from a...', Array)
+#6 [internal function]: Aitsu_Revision_Article::notify(Object(Aitsu_Event))
+#7 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('backend.article...', Array)
+#11 /home/christian/www/moraso/application/plugins/article/properties/Class.php(54): Aitsu_Event::raise('backend.article...', Array)
+#12 /home/christian/www/moraso/library/Zend/Controller/Action.php(516): PropertiesArticleController->indexAction()
+#13 /home/christian/www/moraso/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#14 /home/christian/www/moraso/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#15 /home/christian/www/moraso/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#16 /home/christian/www/moraso/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#17 /home/christian/www/moraso/adm/index.php(26): Zend_Application->run()
+#18 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:01:25+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:01:25+01:00 NOTICE (5): Affected event: backend.article.edit.save.start[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:01:25+01:00 NOTICE (5): John Doe has saved article "und" (idart 316).[Thrown @:/library/Moraso/Log/Article.php:26]
+2013-02-04T15:01:26+01:00 NOTICE (5): John Doe has saved article "und" (idart 316).[Thrown @:/library/Moraso/Log/Article.php:26]
+2013-02-04T15:01:30+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-02-04T15:01:33+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:01:33+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:20]
+2013-02-04T15:01:33+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:01:33+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:01:33+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:01:33+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 42.232036590576
+    [:ssum] => 1783.5449145878
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:01:33+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:01:33+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:01:33+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:01:33+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:02:02+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:02:02+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:20]
+2013-02-04T15:02:02+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:02+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:02+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:02:02+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 43.812036514282
+    [:ssum] => 1919.4945435288
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:02:02+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:02:02+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:02:02+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:02:02+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:02:16+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/application/modules/Navigation/Class.php:23]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/application/modules/Navigation/Class.php:24]
+2013-02-04T15:02:16+01:00 WARN (4): Creating default object from empty value[Thrown @:/application/modules/Navigation/Class.php:24]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:02:16+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:20]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:16+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:02:16+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 41.584014892578
+    [:ssum] => 1729.2302945862
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:02:16+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:02:16+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:02:16+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:02:16+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:02:39+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:02:39+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:20]
+2013-02-04T15:02:39+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:39+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:39+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:02:39+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 41.238069534302
+    [:ssum] => 1700.5783789159
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:02:39+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:02:39+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:02:39+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:02:39+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:02:42+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:02:42+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:20]
+2013-02-04T15:02:42+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:42+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:02:42+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:02:42+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 40.660858154297
+    [:ssum] => 1653.3053858439
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:02:42+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:02:42+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:02:42+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:02:42+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:03:02+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:03:02+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:22]
+2013-02-04T15:03:02+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:02+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:02+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:03:02+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 38.860082626343
+    [:ssum] => 1510.1060217262
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:03:02+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:03:02+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:03:02+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:03:02+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:03:36+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:03:36+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:24]
+2013-02-04T15:03:36+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:36+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:36+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:03:36+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 38.00892829895
+    [:ssum] => 1444.6786304347
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:03:36+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:03:36+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:03:36+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:03:36+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:03:37+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:03:37+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:24]
+2013-02-04T15:03:37+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:37+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:37+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:03:37+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 39.268970489502
+    [:ssum] => 1542.0520433054
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:03:37+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:03:37+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:03:37+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:03:37+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]
+2013-02-04T15:03:42+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-02-04T15:03:44+01:00 NOTICE (5): Undefined offset: 2[Thrown @:/application/modules/Navigation/Sub/Class.php:24]
+2013-02-04T15:03:44+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:44+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:29]
+2013-02-04T15:03:44+01:00 NOTICE (5): Trying to get property of non-object[Thrown @:/library/Aitsu/Html/Helper/Navigation/Ul.php:46]
+2013-02-04T15:04:33+01:00 NOTICE (5): Array to string conversion[Thrown @:/library/Aitsu/Forms/Renderer/ExtJs.php:132]
+2013-02-04T15:06:22+01:00 WARN (4): array_key_exists() expects parameter 2 to be array, boolean given[Thrown @:/library/Aitsu/Core/Article.php:126]
+2013-02-04T15:06:22+01:00 NOTICE (5): SQL Exception occured:
+Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null
+Trace:
+#0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}
+ Query: insert into mor_performance_profile (idartlang, obsdate, tsum, tssum, fastest, slowest, n) values (:idartlang, :date, :sum, :ssum, :sum, :sum, 1) on duplicate key update 	tsum = tsum + :sum, 	tssum = tssum + :ssum, 	n = n + 1, 	fastest = least(fastest, :sum), 	slowest = greatest(slowest, :sum)
+ Params: Array
+(
+    [:sum] => 38.320064544678
+    [:ssum] => 1468.4273467083
+    [:idartlang] => 
+    [:date] => 2013-02-04
+)
+[Thrown @:/library/Aitsu/Event/Listener/SqlException.php:21]
+2013-02-04T15:06:22+01:00 NOTICE (5): Exception: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idartlang' cannot be null[Thrown @:/library/Aitsu/Event/Dispatcher.php:117]
+2013-02-04T15:06:22+01:00 NOTICE (5): #0 /home/christian/www/moraso/library/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('insert into mor...', Array)
+#3 /home/christian/www/moraso/library/Aitsu/Db.php(113): Zend_Db_Adapter_Pdo_Abstract->query('insert into mor...', Array)
+#4 /home/christian/www/moraso/library/Aitsu/Db.php(249): Aitsu_Db->_query('query', 'insert into _pe...', Array, false, false)
+#5 /home/christian/www/moraso/library/Aitsu/Persistence/Profile.php(69): Aitsu_Db::query('insert into _pe...', Array)
+#6 /home/christian/www/moraso/library/Aitsu/Profiler/Recorder.php(22): Aitsu_Persistence_Profile->save()
+#7 [internal function]: Aitsu_Profiler_Recorder::notify(Object(Aitsu_Event))
+#8 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(111): call_user_func(Array, Object(Aitsu_Event))
+#9 /home/christian/www/moraso/library/Aitsu/Event/Dispatcher.php(74): Aitsu_Event_Dispatcher->_invoke(Object(Aitsu_Event))
+#10 /home/christian/www/moraso/library/Aitsu/Event/Abstract.php(19): Aitsu_Event_Dispatcher->raise(Object(Aitsu_Event))
+#11 /home/christian/www/moraso/library/Aitsu/Event.php(12): Aitsu_Event_Abstract->__construct('frontend.end', NULL)
+#12 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(480): Aitsu_Event::raise('frontend.end', NULL)
+#13 [internal function]: Aitsu_Bootstrap->_TriggerEnd()
+#14 /home/christian/www/moraso/library/Aitsu/Bootstrap.php(507): call_user_func(Array)
+#15 /home/christian/www/moraso/index.php(28): Aitsu_Bootstrap::run()
+#16 {main}[Thrown @:/library/Aitsu/Event/Dispatcher.php:118]
+2013-02-04T15:06:22+01:00 NOTICE (5): WARNING: Notification of pending listeners stopped.[Thrown @:/library/Aitsu/Event/Dispatcher.php:119]
+2013-02-04T15:06:22+01:00 NOTICE (5): Affected event: frontend.end[Thrown @:/library/Aitsu/Event/Dispatcher.php:120]

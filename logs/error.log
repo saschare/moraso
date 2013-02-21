@@ -1,0 +1,1020 @@
+[Tue Jan 15 09:59:12 2013] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'aitsu_fork'' in /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php:129\nStack trace:\n#0 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'root', 'lollo1987', Array)\n#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(109): Zend_Db_Adapter_Pdo_Abstract->_connect()\n#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(459): Zend_Db_Adapter_Pdo_Mysql->_connect()\n#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('DESCRIBE `ait_a...', Array)\n#4 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(169): Zend_Db_Adapter_Pdo_Abstract->query('DESCRIBE `ait_a...')\n#5 /home/christian/www/moraso/library/Zend/Db/Table/Abstract.php(836): Zend_Db_Adapter_Pdo_Mysql->describeTable('ait_aitsu_sessi...', NULL)\n#6 /home/christian/www/moraso/library/Zend/Db/Table/Ab in /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[Tue Jan 15 09:59:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Tue Jan 15 09:59:12 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 09:59:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 09:59:12 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 09:59:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 09:59:22 2013] [error] [client 127.0.0.1] PHP Warning:  mkdir(): Permission denied in /home/christian/www/moraso/library/Aitsu/Core/Logger.php on line 24
+[Tue Jan 15 09:59:22 2013] [error] [client 127.0.0.1] PHP Warning:  mkdir(): Permission denied in /home/christian/www/moraso/library/Aitsu/Core/Logger.php on line 24
+[Tue Jan 15 09:59:22 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2397 to 666 : URL /adm/index.php
+[Tue Jan 15 10:00:53 2013] [error] [client 192.168.178.41] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'aitsu_fork'' in /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php:129\nStack trace:\n#0 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'root', 'lollo1987', Array)\n#1 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(109): Zend_Db_Adapter_Pdo_Abstract->_connect()\n#2 /home/christian/www/moraso/library/Zend/Db/Adapter/Abstract.php(459): Zend_Db_Adapter_Pdo_Mysql->_connect()\n#3 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('DESCRIBE `ait_a...', Array)\n#4 /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Mysql.php(169): Zend_Db_Adapter_Pdo_Abstract->query('DESCRIBE `ait_a...')\n#5 /home/christian/www/moraso/library/Zend/Db/Table/Abstract.php(836): Zend_Db_Adapter_Pdo_Mysql->describeTable('ait_aitsu_sessi...', NULL)\n#6 /home/christian/www/moraso/library/Zend/Db/Table/Ab in /home/christian/www/moraso/library/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[Tue Jan 15 10:00:53 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php
+[Tue Jan 15 10:00:53 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 10:00:53 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 10:00:54 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 10:00:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 10:00:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1426 to 421 : URL /adm/index.php
+[Tue Jan 15 10:01:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1426 to 421 : URL /adm/index.php
+[Tue Jan 15 10:01:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1426 to 421 : URL /adm/index.php
+[Tue Jan 15 10:01:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1426 to 421 : URL /adm/index.php
+[Tue Jan 15 10:03:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Tue Jan 15 10:03:50 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5691 to 1957 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 917 to 355 : URL /adm/js/ext-3.4.0/resources/css/debug.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 97308 to 22860 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base-debug.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 347497 to 78500 : URL /adm/js/ext-3.4.0/ux-all-debug.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2862391 to 642487 : URL /adm/js/ext-3.4.0/ext-all-debug-w-comments.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:05:38 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:06 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5691 to 1957 : URL /adm/index.php, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /adm/index.php, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:28 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/acl/logout
+[Tue Jan 15 10:07:28 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:28 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:07:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Tue Jan 15 10:12:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 750 to 390 : URL /index.php
+[Tue Jan 15 10:12:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 10:15:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Tue Jan 15 10:15:40 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:16:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:16:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:08 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:09 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:10 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:11 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 105 to 101 : URL /index.php
+[Tue Jan 15 10:17:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 750 to 390 : URL /index.php
+[Tue Jan 15 10:19:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 750 to 391 : URL /index.php
+[Tue Jan 15 10:19:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 10:22:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 744 to 385 : URL /index.php
+[Tue Jan 15 10:22:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 10:22:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1624 to 496 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:22:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:22:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:22:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:22:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:14 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 747 to 387 : URL /index.php
+[Tue Jan 15 10:24:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 10:24:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 501 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:24:25 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:24:25 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 10:26:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 10:26:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 12:24:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 747 to 388 : URL /index.php
+[Tue Jan 15 12:24:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 12:24:51 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 12:24:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 12:27:30 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3185 to 998 : URL /index.php
+[Tue Jan 15 12:27:30 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 12:28:32 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 767 to 391 : URL /index.php
+[Tue Jan 15 12:28:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:01:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Tue Jan 15 13:01:36 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:01:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:01:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:01:46 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:01:46 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:01:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:01:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:25 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:26 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:45 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 751 to 385 : URL /index.php
+[Tue Jan 15 13:02:45 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:02:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 501 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:53 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:53 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 501 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 501 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:02:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:02:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 500 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 497 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 745 to 386 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:03:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 745 to 387 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:03:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 745 to 386 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:03:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 745 to 387 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:03:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 768 to 394 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:03:38 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 745 to 385 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:38 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:03:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 748 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:53 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 749 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:53 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 748 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 750 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:03:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 748 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:03:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:04:00 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 750 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:04:00 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:04:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 750 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:04:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:04:08 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 746 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:04:09 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:04:10 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 746 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:04:10 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:04:14 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 747 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:04:14 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:04:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 749 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:04:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:06:32 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2345 to 609 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:06:32 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:07:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2600 to 742 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:07:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:07:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2600 to 742 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:07:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:07:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2585 to 733 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:07:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:07:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2616 to 744 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:07:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:07:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2616 to 743 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:07:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:16:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2620 to 743 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:16:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:16:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2605 to 737 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:16:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:18:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2605 to 739 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:18:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:18:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 749 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:18:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:19:01 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2631 to 748 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:19:01 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:20:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 755 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:20:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:21:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 757 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:21:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:27:11 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 753 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:27:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:27:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2691 to 760 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:27:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:28:30 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 395 : URL /index.php
+[Tue Jan 15 13:28:30 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:28:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2550 to 721 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:28:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:28:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 754 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:28:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:31:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 754 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:31:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:31:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 395 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:31:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Jan 15 13:37:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 755 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:37:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:37:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 396 : URL /index.php
+[Tue Jan 15 13:37:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:40:45 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2639 to 755 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:40:45 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 13:42:51 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Tue Jan 15 13:42:52 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Tue Jan 15 13:42:53 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 13:42:53 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 13:42:53 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Jan 15 13:42:53 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Jan 15 13:54:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2124 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:54:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2124 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:54:46 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:54:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:55:04 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2124 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:57:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 4226 to 1229 : URL /index.php
+[Tue Jan 15 13:57:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1756 to 626 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 160484 to 51974 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5791 to 1555 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 13:57:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9122 to 2082 : URL /index.php
+[Tue Jan 15 13:57:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1756 to 626 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 13:57:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 160484 to 51974 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3423 to 1102 : URL /index.php
+[Tue Jan 15 14:00:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:10 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 4543 to 1359 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 14:00:14 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:00:14 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:00:14 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:00:14 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:00:14 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:00:14 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5935 to 1854 : URL /index.php
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 305 to 231 : URL /javascripts/foundation.min.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 294 to 225 : URL /javascripts/app.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:00:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:00:16 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 305 to 231 : URL /javascripts/foundation.min.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:16 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:00:16 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 294 to 225 : URL /javascripts/app.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5935 to 1854 : URL /index.php
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 305 to 231 : URL /javascripts/foundation.min.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 294 to 225 : URL /javascripts/app.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 305 to 231 : URL /javascripts/foundation.min.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 294 to 225 : URL /javascripts/app.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5935 to 1854 : URL /index.php
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 305 to 231 : URL /javascripts/foundation.min.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 294 to 225 : URL /javascripts/app.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 305 to 231 : URL /javascripts/foundation.min.js, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/javascripts, referer: http://local.moraso/
+[Tue Jan 15 14:00:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 294 to 225 : URL /javascripts/app.js, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 5945 to 1851 : URL /index.php
+[Tue Jan 15 14:01:13 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 546 to 131 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 9288 to 4075 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1756 to 626 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 85773 to 14777 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:01:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 160484 to 51974 : URL /index.php, referer: http://local.moraso/
+[Tue Jan 15 14:10:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 7065 to 2108 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Jan 15 14:10:51 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:10:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_1, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:10:51 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:10:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /holder.js/1200x250/text:Slide_3, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:10:51 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/holder.js, referer: http://local.moraso/adm/edit/533
+[Tue Jan 15 14:10:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /holder.js/1200x250/text:Slide_2, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 16:23:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:24:00 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Thu Jan 17 16:24:01 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:01 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:08 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Thu Jan 17 16:24:24 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:24:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:42:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2501 to 977 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 16:55:27 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:55:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 16:55:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 16:55:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 16:55:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 16:56:07 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:56:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 16:56:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 16:56:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Jan 17 16:59:55 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1746 to 548 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 16:59:55 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 16:59:56 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1746 to 547 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 16:59:56 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:00:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1746 to 550 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:00:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:00:10 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1746 to 547 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:00:10 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:00:11 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1746 to 549 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:00:11 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:00:25 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1746 to 548 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:00:25 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:00:44 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1798 to 551 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:00:44 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:02:54 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:02:54 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Thu Jan 17 17:44:06 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:06 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:07 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Thu Jan 17 17:44:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Thu Jan 17 17:44:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:12 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Thu Jan 17 17:44:38 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2501 to 977 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Thu Jan 17 20:25:50 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Thu Jan 17 20:25:50 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Thu Jan 17 20:25:50 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Thu Jan 17 20:25:50 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Mon Feb 04 14:15:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Mon Feb 04 14:15:57 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:15:58 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Mon Feb 04 14:15:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Mon Feb 04 14:16:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:02 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:07 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Mon Feb 04 14:16:30 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 750 to 390 : URL /index.php
+[Mon Feb 04 14:16:30 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/wurst/
+[Mon Feb 04 14:29:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 499 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:29:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:29:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:29:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:29:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:29:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1625 to 498 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:29:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:30:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 679 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:30:52 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:31:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:31:31 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:31:31 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:31:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:31:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 681 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:31:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:37:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:37:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:37:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:38:40 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:38:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 681 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:38:47 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:38:54 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:38:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:38:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:43:20 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:43:28 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 678 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:43:28 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:43:43 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 14:43:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 679 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:43:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:46:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:46:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:49:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1927 to 666 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:49:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:49:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:49:24 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:49:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 678 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:49:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:49:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 681 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:49:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:49:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 681 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:49:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 14:50:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2110 to 679 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 14:50:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Mon Feb 04 15:00:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 392 : URL /index.php
+[Mon Feb 04 15:00:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/wurst/
+[Mon Feb 04 15:00:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php
+[Mon Feb 04 15:00:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 395 : URL /index.php
+[Mon Feb 04 15:00:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/wurst/und/Fleisch/
+[Mon Feb 04 15:00:40 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 393 : URL /index.php
+[Mon Feb 04 15:00:40 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/wurst/und/Fleisch/
+[Mon Feb 04 15:00:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1724 to 510 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:00:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/534
+[Mon Feb 04 15:00:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 394 : URL /index.php
+[Mon Feb 04 15:00:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/wurst/und/Fleisch/
+[Mon Feb 04 15:01:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 394 : URL /index.php
+[Mon Feb 04 15:01:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/wurst/und/Fleisch/
+[Mon Feb 04 15:02:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 770 to 394 : URL /index.php
+[Mon Feb 04 15:02:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:02:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 780 to 397 : URL /index.php
+[Mon Feb 04 15:02:16 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:02:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 828 to 437 : URL /index.php
+[Mon Feb 04 15:02:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:02:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 828 to 436 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:02:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/und/
+[Mon Feb 04 15:03:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 871 to 459 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:03:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/und/
+[Mon Feb 04 15:03:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 871 to 457 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:03:36 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/und/
+[Mon Feb 04 15:03:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 871 to 460 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:03:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/und/
+[Mon Feb 04 15:03:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3011 to 788 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:03:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/535
+[Mon Feb 04 15:04:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3151 to 803 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:04:19 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/535
+[Mon Feb 04 15:04:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3244 to 802 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:04:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/535
+[Mon Feb 04 15:04:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3773 to 852 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:04:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/534
+[Mon Feb 04 15:05:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2250 to 599 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:05:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/534
+[Mon Feb 04 15:06:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1597 to 502 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:06:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/534
+[Mon Feb 04 15:06:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 710 to 388 : URL /index.php, referer: http://local.moraso/de/wurst/und/Fleisch/
+[Mon Feb 04 15:06:22 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/und/
+[Mon Feb 04 15:55:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1597 to 501 : URL /index.php, referer: http://local.moraso/adm/
+[Mon Feb 04 15:55:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/534
+[Tue Feb 05 18:29:26 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Tue Feb 05 18:29:35 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:35 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Feb 05 18:29:35 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3378 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:29:44 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:32 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1832 to 560 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:32 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:30:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:30:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:30:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:30:46 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1832 to 562 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:46 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:30:55 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:55 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 799 to 408 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Feb 05 18:30:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 799 to 405 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Feb 05 18:30:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1832 to 560 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:30:59 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:31:05 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2128 to 689 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:05 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:31:11 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:11 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2128 to 689 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 05 18:31:17 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2010 to 648 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 05 18:31:18 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:10:14 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Wed Feb 13 15:10:26 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:26 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:27 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Wed Feb 13 15:10:27 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Wed Feb 13 15:10:27 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Wed Feb 13 15:10:27 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:10:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Wed Feb 13 15:18:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:18:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:18:42 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:18:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 13 15:18:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:18:54 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2501 to 977 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:42:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1760 to 586 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:42:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:42:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:42:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:42:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:42:58 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2646 to 677 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:42:58 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:44:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 4966 to 861 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:44:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:45:21 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 4966 to 862 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:45:21 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:46:05 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 6312 to 922 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:46:05 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:47:04 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 4437 to 813 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:47:04 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:47:49 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3699 to 775 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:47:49 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:48:02 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3827 to 772 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:48:02 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:48:36 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3827 to 769 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:48:36 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:51:06 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 4170 to 792 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:51:06 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 15:56:21 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2938 to 643 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 15:56:21 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:05:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2134 to 694 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:05:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:37 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2134 to 694 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:37 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:41 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:41 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 297 to 226 : URL /adm/image/////001.jpg, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:41 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1858 to 579 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:45 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 813 to 414 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:06:46 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:06:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1858 to 581 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:06:54 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2144 to 699 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:06:54 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:07:29 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2144 to 698 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:07:29 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:07:44 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2144 to 698 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:07:44 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:08:51 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2144 to 700 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:08:51 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:09:01 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:01 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2144 to 699 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:09:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2144 to 700 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:09:42 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 297 to 226 : URL /adm/image/////001.jpg, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:09:42 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1863 to 583 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:09:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:09:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 813 to 414 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:09:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:09:48 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:09:49 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:10:23 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 829 to 424 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:10:23 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:10:23 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:10:24 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:10:28 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Wed Feb 13 16:10:55 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1206 to 563 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:10:55 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:10:55 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:10:55 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:11:20 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1104 to 544 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:11:20 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:11:20 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:11:20 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:11:37 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1107 to 547 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:11:37 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:12:18 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1128 to 542 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:12:18 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:12:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 853 to 451 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:12:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:13:00 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1903 to 618 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:13:00 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:16:29 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1904 to 619 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:29 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:16:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 854 to 450 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:16:49 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:49 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 307 to 233 : URL /adm/image/200/200/1/314/001.jpg, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:49 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:49 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 854 to 449 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:52 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:16:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1904 to 620 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:16:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:17:22 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1937 to 643 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:17:23 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:17:28 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 887 to 472 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:17:28 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 16:17:41 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1938 to 642 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:17:41 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:18:17 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Wed Feb 13 16:18:17 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 307 to 233 : URL /adm/image/200/200/1/314/001.jpg, referer: http://local.moraso/adm/
+[Wed Feb 13 16:18:18 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:18:18 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:18:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1926 to 635 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:18:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:18:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1926 to 635 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:18:43 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:20:13 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2156 to 703 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:20:13 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:20:19 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Wed Feb 13 16:20:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 300 to 229 : URL /adm/image////314/001.jpg, referer: http://local.moraso/adm/
+[Wed Feb 13 16:20:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:20:19 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:20:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:24:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1910 to 625 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:24:31 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:24:58 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1910 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:24:58 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:25:02 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:02 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:17 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:17 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 307 to 234 : URL /adm/image/400/200/1/314/001.jpg, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:17 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'XSLTProcessor' not found in /home/christian/www/moraso/application/plugins/article/editalt/Class.php on line 79, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:17 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 167 to 136 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1944 to 650 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:25:19 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:30:32 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1944 to 650 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:30:32 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 13 16:30:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 888 to 477 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 16:30:42 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Wed Feb 13 21:29:05 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 21:29:05 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 13 21:29:05 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 13 21:29:05 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Thu Feb 14 11:23:12 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:12 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:13 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Thu Feb 14 11:23:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Thu Feb 14 11:23:13 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Thu Feb 14 11:23:13 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Thu Feb 14 11:23:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:21 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:21 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:23:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Thu Feb 14 11:24:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2157 to 704 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Feb 14 11:24:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/535
+[Thu Feb 14 11:24:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/535
+[Thu Feb 14 11:24:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/535
+[Thu Feb 14 11:24:49 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/535
+[Thu Feb 14 12:07:52 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2157 to 704 : URL /index.php, referer: http://local.moraso/adm/
+[Thu Feb 14 12:07:52 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/535
+[Tue Feb 19 11:27:33 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Tue Feb 19 11:27:41 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:42 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/favicon.ico
+[Tue Feb 19 11:27:42 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 14874 to 3378 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:27:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Tue Feb 19 11:39:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1585 to 497 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:39:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:39:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:39:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:39:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:39:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2070 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:39:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:40:03 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 232 : URL /adm/image/200/200/0/314/001.jpg, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:05 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 836 to 465 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:05 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Feb 19 11:40:50 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'Module_Image_Class' not found in /home/christian/www/moraso/application/skins/default/module/Image/Class.php on line 7, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:56 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'Module_Image_Class' not found in /home/christian/www/moraso/application/skins/default/module/Image/Class.php on line 7, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:57 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'Module_Image_Class' not found in /home/christian/www/moraso/application/skins/default/module/Image/Class.php on line 7, referer: http://local.moraso/adm/
+[Tue Feb 19 11:40:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:03 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'Module_Image_Class' not found in /home/christian/www/moraso/application/skins/default/module/Image/Class.php on line 7, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:17 2013] [error] [client 192.168.178.41] PHP Fatal error:  Class 'Module_Image_Class' not found in /home/christian/www/moraso/application/skins/default/module/Image/Class.php on line 7, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2070 to 679 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:28 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:41:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 2070 to 680 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:41:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:42:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1869 to 616 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:42:50 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:43:02 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Tue Feb 19 11:43:02 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 232 : URL /adm/image/200/200/0/314/001.jpg, referer: http://local.moraso/adm/
+[Tue Feb 19 11:43:23 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Tue Feb 19 11:43:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 236 : URL /adm/image/123/456/2/314/001.jpg, referer: http://local.moraso/adm/
+[Tue Feb 19 11:51:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1882 to 628 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:51:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:51:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1869 to 616 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:51:39 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:53:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1942 to 643 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:53:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:55:38 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1942 to 643 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:55:38 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:56:03 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1885 to 611 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:56:04 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:56:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1913 to 629 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:56:27 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:56:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1942 to 645 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:56:48 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 11:56:57 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Tue Feb 19 11:56:57 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 235 : URL /adm/image/250/120/0/314/001.jpg, referer: http://local.moraso/adm/
+[Tue Feb 19 11:58:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1937 to 637 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 11:58:34 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:00:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1937 to 637 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:00:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:00:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1925 to 634 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:00:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:00:58 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Tue Feb 19 12:00:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 307 to 234 : URL /adm/image/250/234/0/314/001.jpg, referer: http://local.moraso/adm/
+[Tue Feb 19 12:02:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1947 to 636 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:02:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:02:51 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:02:56 2013] [error] [client 192.168.178.41] File does not exist: /home/christian/www/moraso/adm/image, referer: http://local.moraso/adm/
+[Tue Feb 19 12:02:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 300 to 229 : URL /adm/image////314/001.jpg, referer: http://local.moraso/adm/
+[Tue Feb 19 12:02:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:02:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 821 to 456 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:02:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Feb 19 12:02:58 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 0 to 2 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Feb 19 12:03:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 828 to 462 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:03:37 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/preview/533
+[Tue Feb 19 12:03:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1954 to 644 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:03:41 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:09:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1585 to 495 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:09:17 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:31:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1585 to 494 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:31:56 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:39:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1585 to 496 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:39:23 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Tue Feb 19 12:49:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 1585 to 495 : URL /index.php, referer: http://local.moraso/adm/
+[Tue Feb 19 12:49:15 2013] [debug] mod_deflate.c(615): [client 192.168.178.41] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2578 to 884 : URL /adm/index.php
+[Wed Feb 20 17:38:57 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 317 to 240 : URL /adm/js/ext-3.4.0/resources/css/ux-all.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 8535 to 1017 : URL /adm/css/extjs-aitsu.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 38501 to 5959 : URL /adm/js/ext-3.4.0/resources/css/xtheme-gray.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 129 to 91 : URL /adm/css/extjs-aitsu-login.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 100721 to 16722 : URL /adm/js/ext-3.4.0/resources/css/ext-all-notheme.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 27254 to 10521 : URL /adm/js/ext-3.4.0/adapter/ext/ext-base.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 154280 to 43436 : URL /adm/js/ext-3.4.0/ux-all.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 717499 to 198358 : URL /adm/js/ext-3.4.0/ext-all.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:38:57 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Wed Feb 20 17:38:57 2013] [error] [client 127.0.0.1] File does not exist: /home/christian/www/moraso/favicon.ico
+[Wed Feb 20 17:38:57 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 287 to 219 : URL /favicon.ico
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 14873 to 3377 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1217 to 417 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3824 to 1147 : URL /adm/js/ext-3.4.0/ext-aitsu.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 15627 to 5934 : URL /adm/js/ext-3.4.0/adapter/jquery/ext-jquery-adapter.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1658 to 634 : URL /adm/js/ext-3.4.0/extensions/ext.ux.linkField.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 15441 to 3453 : URL /adm/js/ext-3.4.0/extensions/ext.ux.plupload.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 748 to 356 : URL /adm/js/jquery/jcrop/css/jquery.Jcrop.css, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 17103 to 5459 : URL /adm/js/jquery/jcrop/js/jquery.Jcrop.min.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 50562 to 16947 : URL /adm/js/plupload/js/plupload.full.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 18300 to 5477 : URL /adm/js/markItUp/1.1.12/markitup/jquery.markitup.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 93868 to 33122 : URL /adm/js/jquery/jquery-1.7.1.min.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2073 to 598 : URL /adm/js/markItUp/1.1.12/markitup/sets/flex/set.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 205136 to 51203 : URL /adm/js/jquery/jquery-ui-1.8.6.custom.min.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:03 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 297162 to 93993 : URL /adm/editors/ckeditor/ckeditor.js, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:39:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:39:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2017 to 539 : URL /adm/css/flexeditor.css, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:39:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 2965 to 984 : URL /adm/js/markItUp/1.1.12/markitup/skins/flex/style.css, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:39:09 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 36488 to 6181 : URL /adm/css/jqueryui/aitsu/jquery-ui-1.8.17.custom.css, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:40:56 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:40:56 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:41:16 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:41:16 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:41:18 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:41:18 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:42:08 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:42:08 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:43:17 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:43:17 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 17:46:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 625 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 17:46:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 18:06:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 623 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 18:06:45 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 18:38:44 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 625 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 18:38:44 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 18:46:33 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 18:46:33 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 18:48:38 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 18:48:38 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 19:03:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1846 to 624 : URL /index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 19:03:47 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 40 to 42 : URL /index.php, referer: http://local.moraso/adm/edit/533
+[Wed Feb 20 22:10:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 22:10:12 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3597 to 916 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 22:10:16 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3597 to 916 : URL /adm/index.php
+[Wed Feb 20 22:10:23 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3597 to 916 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 22:10:30 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 14873 to 3376 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 22:10:36 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /adm/index.php, referer: http://local.moraso/adm/
+[Wed Feb 20 22:10:36 2013] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 3597 to 916 : URL /adm/index.php, referer: http://local.moraso/adm/
